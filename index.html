@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Lab 2</title>
+  <title>Creative 2</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,30 +13,45 @@
 
 <body class="d-flex flex-column min-vh-100">
   <div class="page">
-  <h1 style="text-align:center">Weather and Weather Co</h1>
+  <h1 style="text-align:center">Covid-19 Stats</h1>
   <br>
 
-
-  <div class="row">
-    <div class="special col-md col-lg d-flex justify-content-center align-self-center">
-
-      <form>
-        <label>Enter a U.S. city</label>
-        <input id="weatherInput" type="text"></input><br/>
-        <input id="weatherSubmit" type="submit" value="Submit"></input>
-      </form>
-
-    </div>
-    <div class="special col-md col-lg  d-flex justify-content-center align-self-center">
-      <div id="weatherResults">
-      </div>
+  <div class="special col-md col-lg  d-flex justify-content-center align-self-center">
+    <div id="Joke">
     </div>
   </div>
+
+  <div class="special col-md col-lg d-flex justify-content-center align-self-center">
+    <form>
+      <label>Enter a date:</label>
+      <br>
+      <label>Example: To acces data on January 1, 2021, type in 2021-01-01</label>
+      <br>
+      <input id="dateInput" type="text"></input><br/>
+      <input id="dateSubmit" type="submit" value="Submit"></input>
+    </form>
+  </div>
+
+  <br>
+  <div class="row">
+    <div class="special col-md col-lg d-flex justify-content-center align-self-center">
+      <div id="dataResults">
+      </div>
+    </div>
+
+    <div class="special col-md col-lg d-flex justify-content-center align-self-center">
+      <div id="moredataResults">
+      </div>
+    </div>
+
+  </div>
+
+  <br>
   <hr>
   <hr>
 
 
-    <section class="portfolio" id="forecastResults">
+    <section class="portfolio" id="otherResults">
     </section>
 
 
@@ -46,7 +61,7 @@
 </div>
 
 <footer class="mt-auto">
-    <div class="text-center p-3" style="background-color: honeydew">
+    <div class="text-center p-3" style="background-color: #bad4f7">
       2021 Copyright (maybe):
       <a class="text-dark" href="https://github.com/BYU-CS-260-Winter-2021/lab-2-weather-app-Nlarseny" target="_blank">Github Classroom Link</a>
     </div>

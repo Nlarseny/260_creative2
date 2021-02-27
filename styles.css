@@ -1,0 +1,27 @@
+body {
+  background-color: #ff937c;
+  color: #070706;
+}
+
+
+/* Image Grid */
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+form {
+    display: block;
+    text-align: center;
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 1000px) {
+  .page {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
