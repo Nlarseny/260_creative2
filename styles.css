@@ -1,6 +1,9 @@
 body {
   background-color: #ff937c;
   color: #070706;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -19,9 +22,9 @@ form {
 
 
 /* Desktop Styles */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 640px) {
   .page {
-    width: 1000px;
+    width: 640px;
     margin: 0 auto;
   }
 }
